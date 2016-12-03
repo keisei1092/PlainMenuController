@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PlainMenuController_Example' do
+  pod 'PlainMenuController', :path => '../'
+
+  target 'PlainMenuController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
