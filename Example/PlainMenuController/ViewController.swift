@@ -48,4 +48,5 @@ extension ViewController: UIViewControllerTransitioningDelegate {
         -> UIViewControllerAnimatedTransitioning? {
             return MenuPresentationAnimator(isPresentation: false)
     }
+
 }
