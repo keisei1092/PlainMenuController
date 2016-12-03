@@ -1,0 +1,6 @@
+framework module PlainMenuController {
+  umbrella header "PlainMenuController-umbrella.h"
+
+  export *
+  module * { export * }
+}

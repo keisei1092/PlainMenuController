@@ -1,0 +1,16 @@
+PODS:
+  - PlainMenuController (0.1.0)
+
+DEPENDENCIES:
+  - PlainMenuController (from `../`)
+
+EXTERNAL SOURCES:
+  PlainMenuController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PlainMenuController: 5cbcb0b916393e6cb4a3e61637c7a7a82bc24453
+
+PODFILE CHECKSUM: 6354325482b1b4c19a86153a6d905ced96822b3b
+
+COCOAPODS: 1.1.1
