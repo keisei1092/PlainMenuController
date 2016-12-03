@@ -7,6 +7,8 @@
 
 Basic, and essential slide menu library developed with Swift 3.0.
 
+![ScreenShot](ScreenShot.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
