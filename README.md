@@ -14,12 +14,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Usage
 
 * Add `import PlainMenuController` in your ViewController which you want to call
-* In a particular event handler in your ViewController,
+* In a particular event handler in your ViewController, add codes below
 
 ```swift
-let storyboard = UIStoryboard.init(name: <MENU_VIEW_CONTROLLER>, bundle: nil)
-let <menuViewController> = storyboard.instantiateInitialViewController() as! <MenuViewControllerClass>
-let navigationController = UINavigationController(rootViewController: <menuViewController>)
+let storyboard = UIStoryboard.init(name: MENU_VIEW_CONTROLLER, bundle: nil)
+let menuViewController = storyboard.instantiateInitialViewController() as! MenuViewControllerClass
+let navigationController = UINavigationController(rootViewController: menuViewController)
 navigationController.modalPresentationStyle = .custom
 navigationController.transitioningDelegate = self
 self.present(navigationController, animated: true, completion: nil)
