@@ -19,9 +19,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 * In a particular event handler in your ViewController, add codes below
 
 ```swift
-let storyboard = UIStoryboard.init(name: MENU_VIEW_CONTROLLER, bundle: nil)
-let menuViewController = storyboard.instantiateInitialViewController() as! MenuViewControllerClass
-let navigationController = UINavigationController(rootViewController: menuViewController)
+let storyboard = UIStoryboard.init(name: YOUR_MENU_VIEW_CONTROLLER, bundle: nil)
+let yourMenuViewController = storyboard.instantiateInitialViewController() as! YourMenuViewControllerClass
+let navigationController = UINavigationController(rootViewController: yourMenuViewController)
 navigationController.modalPresentationStyle = .custom
 navigationController.transitioningDelegate = self
 self.present(navigationController, animated: true, completion: nil)
